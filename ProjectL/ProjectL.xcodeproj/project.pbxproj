@@ -13,6 +13,7 @@
 		EC3DA01F266498A8004BD083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3DA01E266498A8004BD083 /* Preview Assets.xcassets */; };
 		EC3DA02926649F4B004BD083 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DA02826649F4B004BD083 /* Recipe.swift */; };
 		EC3DA02D2664ACA5004BD083 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DA02C2664ACA5004BD083 /* Constants.swift */; };
+		EC3DA02F2664B083004BD083 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DA02E2664B083004BD083 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC3DA020266498A8004BD083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3DA02826649F4B004BD083 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		EC3DA02C2664ACA5004BD083 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC3DA02E2664B083004BD083 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		EC3DA02726649A6D004BD083 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EC3DA02E2664B083004BD083 /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3DA02F2664B083004BD083 /* SearchView.swift in Sources */,
 				EC3DA02926649F4B004BD083 /* Recipe.swift in Sources */,
 				EC3DA01A266498A5004BD083 /* ContentView.swift in Sources */,
 				EC3DA018266498A5004BD083 /* ProjectLApp.swift in Sources */,
