@@ -5,7 +5,6 @@
 //  Created by Lucca Molon on 31/05/21.
 //
 
-var api_key = "ebc5ee439432472ba6cb68b34f2905ba"
 
 import SwiftUI
 
@@ -22,7 +21,7 @@ struct ContentView: View {
     }
     
     func loadData() {
-        guard let url = URL(string: "https://api.spoonacular.com/recipes/findByIngredients?ingredients=apples,+flour,+sugar&number=2&apiKey=ebc5ee439432472ba6cb68b34f2905ba") else {
+        guard let url = URL(string: "https://api.spoonacular.com/recipes/findByIngredients?ingredients=apples,+flour,+sugar&number=2&apiKey=\(API_KEY)") else {
             return
         }
         

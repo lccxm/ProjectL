@@ -12,6 +12,7 @@
 		EC3DA01C266498A8004BD083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3DA01B266498A8004BD083 /* Assets.xcassets */; };
 		EC3DA01F266498A8004BD083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3DA01E266498A8004BD083 /* Preview Assets.xcassets */; };
 		EC3DA02926649F4B004BD083 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DA02826649F4B004BD083 /* Recipe.swift */; };
+		EC3DA02D2664ACA5004BD083 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3DA02C2664ACA5004BD083 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC3DA01E266498A8004BD083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC3DA020266498A8004BD083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC3DA02826649F4B004BD083 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EC3DA02C2664ACA5004BD083 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				EC3DA02626649A64004BD083 /* Models */,
 				EC3DA017266498A5004BD083 /* ProjectLApp.swift */,
 				EC3DA019266498A5004BD083 /* ContentView.swift */,
+				EC3DA02C2664ACA5004BD083 /* Constants.swift */,
 				EC3DA01B266498A8004BD083 /* Assets.xcassets */,
 				EC3DA020266498A8004BD083 /* Info.plist */,
 				EC3DA01D266498A8004BD083 /* Preview Content */,
@@ -160,6 +163,7 @@
 				EC3DA02926649F4B004BD083 /* Recipe.swift in Sources */,
 				EC3DA01A266498A5004BD083 /* ContentView.swift in Sources */,
 				EC3DA018266498A5004BD083 /* ProjectLApp.swift in Sources */,
+				EC3DA02D2664ACA5004BD083 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
